@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import MapComponent from './components/MapComponent';
+import Home from './views/Home';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <MapComponent/>
+      <Home/>
       <Footer/>
     </div>
   );
