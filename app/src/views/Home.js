@@ -16,6 +16,7 @@ function MapComponent() {
 
     return (
       <div className="map">
+        <h1>Carte</h1>
         <GoogleMap 
         zoom={10}
         center={{lat: 48.833,lng: 2.349903}}
